@@ -1,0 +1,44 @@
+#main{
+   background-color:#EEEEEE;
+}
+#title {
+  text-align:center;
+  padding:18px;
+  font-family:"Wendy one";
+  border-radius:5px;}
+#font-size{
+  font-size:16px;
+  margin-top:-4px;
+  }
+#img-div{
+  margin:5px;
+  background-color:white;
+  text-align:center;
+  border-radius:10px;
+}
+#image{
+  margin:auto;
+  display:block;
+  border-radius:5px;
+  max-width:100%;
+  height:auto;
+}
+#img-caption{
+  margin-top:5px;
+  padding-top:10px;
+  padding-bottom:20px;
+}
+#tribute-info{
+  width:30%;
+  margin:auto;
+  text-align:justify;
+}
+ul{
+  line-height:1.4em;
+}
+blockquote{
+  text-align:center;
+}
+p{
+  text-align:center;
+}
