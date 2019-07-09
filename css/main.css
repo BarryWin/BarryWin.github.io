@@ -371,21 +371,21 @@ main.container-fluid h1 {
   font-weight: bold;
 }
 
-main.container-fluid .circle-skills {
+main.container-fluid #circle-skills {
   margin-top: 56px;
 }
 
-main.container-fluid .circle-skills h2 {
+main.container-fluid #circle-skills h2 {
   text-align: center;
 }
 
-main.container-fluid .circle-skills .circle-container {
+main.container-fluid #circle-skills .circle-container {
   position: relative;
   text-align: center;
   padding-bottom: 60px;
 }
 
-main.container-fluid .circle-skills .circle-container span[class^="miic-"] {
+main.container-fluid #circle-skills .circle-container span[class^="miic-"] {
   position: absolute;
   line-height: 140px;
   font-size: 54px;
@@ -396,39 +396,39 @@ main.container-fluid .circle-skills .circle-container span[class^="miic-"] {
   margin: auto;
 }
 
-main.container-fluid .circle-skills .circle-container .miic-html:before {
+main.container-fluid #circle-skills .circle-container .miic-html:before {
   content: /e902;
   color: #aeaeae;
 }
 
-main.container-fluid .circle-skills .circle-container .miic-css:before {
+main.container-fluid #circle-skills .circle-container .miic-css:before {
   content: /e901;
   color: #aeaeae;
 }
 
-main.container-fluid .circle-skills .circle-container .miic-js:before {
+main.container-fluid #circle-skills .circle-container .miic-js:before {
   content: /e903;
   color: #aeaeae;
 }
 
-main.container-fluid .circle-skills .circle-container .miic-bootstrap:before {
+main.container-fluid #circle-skills .circle-container .miic-bootstrap:before {
   content: /e900;
   font-size: 50px;
   color: #aeaeae;
 }
 
-main.container-fluid .circle-skills .circle-container .miic-php:before {
+main.container-fluid #circle-skills .circle-container .miic-php:before {
   content: /e904;
   color: #aeaeae;
   font-size: 50px;
 }
 
-main.container-fluid .circle-skills .circle-container h4 {
+main.container-fluid #circle-skills .circle-container h4 {
   margin-top: 8px;
   font-style: italic;
 }
 
-main.container-fluid .circle-skills .circle-container .percent {
+main.container-fluid #circle-skills .circle-container .percent {
   font-family: caviar_dream, sans-serif;
   position: absolute;
   line-height: 140px;
@@ -440,7 +440,7 @@ main.container-fluid .circle-skills .circle-container .percent {
   font-size: 17px;
 }
 
-main.container-fluid .circle-skills .circle-container h4 + p {
+main.container-fluid #circle-skills .circle-container h4 + p {
   margin-top: 15px;
   font-family: "FiraSans", sans-serif;
   font-style: normal;
@@ -448,7 +448,7 @@ main.container-fluid .circle-skills .circle-container h4 + p {
   font-size: 15px;
 }
 
-main.container-fluid .circle-skills .circle-container .progress-ring-circle {
+main.container-fluid #circle-skills .circle-container .progress-ring-circle {
   -webkit-transform-origin: center;
       -ms-transform-origin: center;
           transform-origin: center;

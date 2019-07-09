@@ -58,7 +58,7 @@ $(document).ready(function () {
     $('a[href^="#"]').click(function () {
         var elementClick = $(this).attr("href");
         var destination = $(elementClick).offset().top;
-        $('body,html').animate({scrollTop: destination}, 400)
+        $('body,html').animate({scrollTop: destination}, 1000)
     });
 
 //skills-animation
