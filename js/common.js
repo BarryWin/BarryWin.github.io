@@ -106,7 +106,7 @@ $(document).ready(function () {
         circle.css('strokeDasharray', `${circumference - offset} ${offset}`)
     }
 
-    var skillsTop = $(".circle-skills").offset().top;
+    var skillsTop = $("#circle-skills").offset().top;
     $(document).scroll(function () {
         if ($(document).scrollTop() + $(window).height() > skillsTop) {
             setProgress(95, 'html');
